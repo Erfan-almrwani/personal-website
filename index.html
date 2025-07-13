@@ -5,19 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Personal Website</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
   <!-- Header Section -->
   <header>
     <nav class="navbar">
-      <ul>
-        <li><a href="#bio">Bio</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <div class="logo">Erfan Almarwani</div>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger"><i class="fas fa-bars"></i></label>
+
+      <ul class="nav-links">
+        <li><a href="#bio"><i class="fas fa-user"></i> Bio</a></li>
+        <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+        <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
       </ul>
     </nav>
+
 
     <div class="profile-header">
       <img src="e1.jpg" alt="Profile Image" class="avatar">
@@ -26,6 +32,7 @@
         I’m a passionate tech enthusiast and web developer focused on building elegant, user-friendly digital experiences. I enjoy learning new technologies and turning ideas into reality through clean, efficient code.
       </p>
     </div>
+    
   </header>
 
   <!-- Main Content -->
@@ -34,10 +41,10 @@
       <h2>Skills</h2>
       <ul class="skills-list">
          <li>Web Development</li>
-        <li>Git & GitHub</li>
-        <li>UI/UX Design</li>
-        <li>Problem Solving</li>
-        </ul>
+         <li>Git & GitHub</li>
+         <li>UI/UX Design</li>
+         <li>Problem Solving</li>
+      </ul>
     </section>
 
     <section id="portfolio">
